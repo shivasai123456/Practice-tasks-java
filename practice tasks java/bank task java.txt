@@ -1,0 +1,38 @@
+public class Bank1 {
+    private int bankId;
+    private String bankName;
+    // private String ifscCode;
+    // private String branchName; // encapsulation - basic version
+
+    // getters and setters - basic version of abstraction
+    // getter - accessors
+    public int getBankId() {
+        return bankId;
+    }
+
+    public String getBankName() {
+        return bankName;
+    }
+
+    // setter - mutators/change the values of instance or static variable
+
+    void setBankId(int newBankId) {
+        bankId = newBankId;
+        // i dont return anything - so return type is void
+    }
+
+    void setBankName(String newBankName) {
+        bankName = newBankName;
+    }
+
+    public static void main(String[] args) {
+        Bank1 myBank = new Bank1();
+
+        myBank.setBankId(1235);
+        myBank.setBankName("HDFC BANK INDIA PRIVATE LIMITED");
+
+        // Using getter methods to retrieve values
+        System.out.println("Bank ID: " + myBank.getBankId());
+        System.out.println("Bank Name: " + myBank.getBankName());
+    }
+}

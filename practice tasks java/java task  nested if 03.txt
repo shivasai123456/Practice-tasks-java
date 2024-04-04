@@ -1,0 +1,21 @@
+public class nested {
+    public static void main(String[] args) {
+        int age = 25;
+        boolean isStudent = false;
+        
+        if (age >= 18) {
+            System.out.println("You are eligible to vote.");
+            
+            if (isStudent) {
+                System.out.println("As a student, you can also apply for student discounts.");
+            } else {
+                System.out.println("You are not eligible for student discounts.");
+            }
+        } else {
+            System.out.println("You are not eligible to vote.");
+        }
+    }
+}
+
+//You are eligible to vote.
+You are not eligible for student discounts.

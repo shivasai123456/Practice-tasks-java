@@ -1,0 +1,50 @@
+
+
+public class get {
+
+    private int id;
+    private String name;
+    private String qualification;
+    
+    public static void main(String[] args) {
+        
+        get obj = new get();
+        
+        obj.setId(12);
+        obj.setName("saisreeja");
+        obj.setQualification("MBA");
+        
+        System.out.println("Id: " + obj.getId());
+        System.out.println("Name: " + obj.getName());
+        System.out.println("Qualification: " + obj.getQualification());
+    }
+
+    // Getter and setter methods
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getQualification() {
+        return qualification;
+    }
+
+    public void setQualification(String qualification) {
+        this.qualification = qualification;
+    }
+}
+
+Output:Id: 12
+Name: saisreeja
+Qualification: MBA

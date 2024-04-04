@@ -1,0 +1,29 @@
+public class loop {
+
+    public static void main(String[] args) {
+
+        for(int i=0;i<10;i++){
+
+            System.out.println("I Love You Sai Sreeja");
+
+        }
+       
+    }
+    
+}
+
+output:Windows PowerShell
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\Personal\Desktop\MyFirstProject>  & 'C:\Program Files\Java\jdk-10.0.2\bin\java.exe' '-cp' 'C:\Users\Personal\Desktop\MyFirstProject\bin' 'loop' 
+I love You Sai Sreeja
+I love You Sai Sreeja
+I love You Sai Sreeja
+I love You Sai Sreeja
+I love You Sai Sreeja
+I love You Sai Sreeja
+I love You Sai Sreeja
+I love You Sai Sreeja
+I love You Sai Sreeja
+I love You Sai Sreeja
